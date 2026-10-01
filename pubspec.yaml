@@ -1,0 +1,36 @@
+name: sound_level_monitor
+description: Android sound level monitor with local history and optional manual offset adjustment.
+publish_to: 'none'
+# The prior ARM64 split APK used Android version code 2001; keep universal updates above it.
+version: 1.0.0+2003
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  record: ^7.1.1
+  fftea: ^1.5.0+1
+  fl_chart: ^1.2.0
+  sqflite: ^2.4.3
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.6
+  intl: ^0.20.3
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.4.3
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: launcher_icon
+  ios: false
+  image_path: assets/icon.png
