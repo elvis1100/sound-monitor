@@ -2,7 +2,7 @@ name: sound_level_monitor
 description: Android sound level monitor with local history and optional manual offset adjustment.
 publish_to: 'none'
 # The prior ARM64 split APK used Android version code 2001; keep universal updates above it.
-version: 1.0.0+2003
+version: 1.0.0+2004
 
 environment:
   sdk: ^3.12.2
